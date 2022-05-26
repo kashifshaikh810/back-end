@@ -7,6 +7,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
+//test
 
 app.post("/register", async (req, res) => {
   let user = new User(req.body);
